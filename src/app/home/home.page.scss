@@ -9,6 +9,7 @@
     font-size: 35vw;
 }
 
+// Ajustes para Android y iOS y no afectar a WEB. Porque si miraramos por ion-header.md no valdría, porque se aplica tambien a web
 :host-context(.plt-android), ion-header.ios {
     margin-top: 25px;
 }
